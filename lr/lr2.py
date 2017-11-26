@@ -5,7 +5,7 @@ import numpy as np
 my_data = np.genfromtxt('data.csv', delimiter=',')
 
 def computeCost(X, y, theta):
-    inner = np.power(((X @ theta.T) - y), 2) # @ means matrix multiplication
+    inner = np.power(((X @ theta.T) - y), 2) # @ means matrix multiplication of arrays. If we want to use * for multiplication we will have to convert all arrays to matrices
     return np.sum(inner) / (2 * len(X))
 
 def gradientDescent(X, y, theta, alpha, iters):
@@ -43,3 +43,5 @@ axes = plt.gca()
 x_vals = np.array(axes.get_xlim()) 
 y_vals = g[0][0] + g[0][1]* x_vals #the line equation
 plt.plot(x_vals, y_vals, '--')
+
+X @ g.T
