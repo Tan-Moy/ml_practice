@@ -2,12 +2,13 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
+df = pd.read_csv('home.txt',names=["size","bedroom","price"]) #only for plotting
 my_data = pd.read_csv('home.txt',names=["size","bedroom","price"])
 
 #we need to normalize the features using mean normalization
 my_data = (my_data - my_data.mean())/my_data.std()
-
 
 #setting the matrixes
 X = my_data.iloc[:,0:2]
@@ -40,16 +41,21 @@ print(g)
 finalCost = computeCost(X,y,g)
 print(finalCost)
 
+#cost function plot
 fig, ax = plt.subplots()  
 ax.plot(np.arange(iters), cost, 'r')  
 ax.set_xlabel('Iterations')  
 ax.set_ylabel('Cost')  
 ax.set_title('Error vs. Training Epoch')  
 
+#initial data plot 
+fig, ax = plt.subplots()
+scat = ax.scatter(my_data.iloc[:,0:1],y,c = my_data.iloc[:,1:2],marker='o')
+fig.colorbar(scat)
 
+g = sns.lmplot(x="size", y="price", hue="bedroom",
+               truncate=True, data=df)
 
-        
-
-
+df.head()
 
 
