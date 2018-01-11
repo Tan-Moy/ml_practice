@@ -45,3 +45,9 @@ dot_data = tree.export_graphviz(clf,
                 )
 graph = graphviz.Source(dot_data)
 graph
+
+#Modelling end to end with real data set
+#########################################
+from sklearn import tree
+from sklearn.model_selection import train_test_split
+
