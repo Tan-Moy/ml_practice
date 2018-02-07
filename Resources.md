@@ -49,8 +49,28 @@
 
 # Numpy
 ## How does NumPy's transpose() method work?
-- https://stackoverflow.com/questions/33100702/how-does-numpy-transpose-work-for-this-example
+- https://stackoverflow.com/questions/33100702/how-does-numpy-transpose-work-for-this-example 
+
+## Convert numpy array to 0 or 1
+- https://stackoverflow.com/questions/45648668/convert-numpy-array-to-0-or-1
 
 # Pandas
 ## Replace NaN values of pandas.DataFrame with values from list
 - https://stackoverflow.com/questions/42167429/replace-nan-values-of-pandas-dataframe-with-values-from-list/42167978
+
+## group_by
+- https://www.youtube.com/watch?v=qy0fDqoMJx8
+
+## List Highest Correlation Pairs from a Large Correlation Matrix in Pandas?
+ - https://stackoverflow.com/questions/17778394/list-highest-correlation-pairs-from-a-large-correlation-matrix-in-pandas
+
+# Regex
+## Intro
+- https://stackoverflow.com/questions/4736/learning-regular-expressions
+
+## Details
+- https://github.com/zeeshanu/learn-regex/blob/master/README.md
+
+# HTML
+## Defer and Async
+- https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
