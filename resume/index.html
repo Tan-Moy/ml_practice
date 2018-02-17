@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <!-- importing local js and css -->
+    <!-- importing local libraries -->
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -21,21 +21,57 @@
     <div class="container-fluid">
         <h1 class="headings">Data Science Portfolio By Tan</h1>
         <span id="dl">
-            <a class="github-button" href="https://github.com/Tan-Moy/resume/archive/master.zip" data-icon="octicon-cloud-download"
-                aria-label="Download Resume">Resumé</a>
-            <a class="github-button" href="https://github.com/Tan-Moy" aria-label="Follow Tan-Moy on GitHub">Follow</a>
+            <a class="github-button" href="https://github.com/Tan-Moy/resume/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download Resume">Resumé</a>
+            <a class="github-button" href="https://github.com/Tan-Moy" aria-label="Visit Tan-Moy on GitHub"></a>
         </span>
 
-        <p>This portfolio is a collection of notebooks which I created while following this path.</p>
+        <p>This portfolio is a collection of notebooks which I made while following
+            <a href="https://www.analyticsvidhya.com/blog/2017/01/the-most-comprehensive-data-science-learning-plan-for-2017/#three-four"
+                target="_blank">this</a> path. It is a work in progress which I will continue to update over time.</p>
+
 
         <!-- Classification Section -->
         <h2 id='subheading1' class="headings">Classification Problems</h2>
+        <!-- Titanic -->
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some example text. Some example text.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <h4 class="card-title">Titanic: Machine Learning from Disaster</h4>
+                <p class="card-text">The sinking of the RMS Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during
+                    her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers
+                    and crew...
+                    <a href="https://www.kaggle.com/c/titanic" target="_blank">[from kaggle]</a>
+                    <br> This one is a classic. Everyone starts with it. I did too. Given the information about passengers, the
+                    task here is to predict whether they survived or not. As with the housing dataset, this one had a lot
+                    of discussion around it. Perfect for learning.</p>
+                <a href="https://nbviewer.jupyter.org/github/Tan-Moy/ml_projects/blob/master/titanic/titanic.ipynb" target="_blank" class="card-link">NbViewer</a>
+                <a href="https://github.com/Tan-Moy/ml_projects/tree/master/titanic" target="_blank" class="card-link">Github</a>
+            </div>
+        </div>
+        <!-- Ghouls -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Ghouls, Goblins, and Ghosts... Boo!</h4>
+                <p class="card-text">Get out your dowsing rods, electromagnetic sensors, … and gradient boosting machines. Kaggle is haunted and
+                    we need your help...
+                    <a href="https://www.kaggle.com/c/ghouls-goblins-and-ghosts-boo" target="_blank">[from kaggle]</a>
+                    <br> This was a fun and surprisingly deep dataset, mainly because the small amount of data and needed some
+                    careful data preparation for good performance.</p>
+                <a href="https://nbviewer.jupyter.org/github/Tan-Moy/ml_projects/blob/master/ghouls_ghosts_goblins/ghostbuster.ipynb" target="_blank"
+                    class="card-link">NbViewer</a>
+                <a href="https://github.com/Tan-Moy/ml_projects/tree/master/ghouls_ghosts_goblins" target="_blank" class="card-link">Github</a>
+            </div>
+        </div>
+        <!-- Hr_data -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">IBM HR Analytics Employee Attrition & Performance</h4>
+                <p class="card-text">One of the very first dataset that I worked on, this may not be as polished as the others. The task here
+                    was to predict employee attrition. The datset and description are available here
+                    <a href="https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset" target="_blank">Kaggle</a>
+                </p>
+                <a href="https://nbviewer.jupyter.org/github/Tan-Moy/ml_projects/blob/master/hr_attrition/ibmdata_tree.ipynb" target="_blank"
+                    class="card-link">NbViewer</a>
+                <a href="https://github.com/Tan-Moy/ml_projects/tree/master/hr_attrition" target="_blank" class="card-link">Github</a>
             </div>
         </div>
 
@@ -43,10 +79,15 @@
         <h2 id='subheading1' class="headings">Regression Problems</h2>
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some example text. Some example text.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <h4 class="card-title">House Prices: Advanced Regression Techniques</h4>
+                <p class="card-text">A modernized and expanded version of the often cited Boston Housing dataset this regression problem offers
+                    a lot of interesting possibilities for feature engineering and visualization. The discussion around this
+                    dataset on
+                    <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques" target="_blank">kaggle</a> was one of the best I have ever seen.
+                </p>
+
+                <a href="https://nbviewer.jupyter.org/github/Tan-Moy/ml_projects/blob/master/housing/housing.ipynb" target="_blank" class="card-link">NbViewer</a>
+                <a href="https://github.com/Tan-Moy/ml_projects/tree/master/housing" target="_blank" class="card-link">Github</a>
             </div>
         </div>
     </div>

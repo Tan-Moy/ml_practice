@@ -25,3 +25,7 @@ p {
 #dl{
     padding-left: 10px !important;
 }
+
+.card{
+    margin-bottom: 8px;
+}
