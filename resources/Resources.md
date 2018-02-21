@@ -54,6 +54,13 @@
 ## Convert numpy array to 0 or 1
 - https://stackoverflow.com/questions/45648668/convert-numpy-array-to-0-or-1
 
+## 3d array
+- https://stackoverflow.com/questions/37142135/sum-numpy-ndarray-with-3d-array-along-a-given-axis-1
+- ![numpy 3d](elsp_0105.png "numpy 3d array")
+- from what i understood axis 0 => into the page
+						 axis 1 => top to bottom of each plane
+						 axis 2 => left to right of each plane
+
 # Pandas
 ## Replace NaN values of pandas.DataFrame with values from list
 - https://stackoverflow.com/questions/42167429/replace-nan-values-of-pandas-dataframe-with-values-from-list/42167978
