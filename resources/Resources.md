@@ -81,3 +81,7 @@
 # HTML
 ## Defer and Async
 - https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
+
+# Python
+## Python != operation vs “is not”
+- https://stackoverflow.com/questions/2209755/python-operation-vs-is-not
