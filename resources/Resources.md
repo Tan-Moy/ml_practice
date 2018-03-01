@@ -15,9 +15,15 @@
 
 # Naive Bayes
 - Defination: https://www.youtube.com/watch?v=NFd0ZQk5bR4
+- Bayes + Naive Bayes: https://www.youtube.com/watch?v=CPqOCI0ahss
+- In Hindi = https://www.youtube.com/watch?v=RixQygYyDKI&t=185s
 
 # Dimensionality Reduction
 - https://www.analyticsvidhya.com/blog/2015/07/dimension-reduction-methods/
+
+# A Beginner’s Guide to Eigenvectors, PCA, Covariance and Entropy
+- https://deeplearning4j.org/eigenvector#principal
+- http://www.cse.psu.edu/~rtc12/CSE586Spring2010/lectures/pcaLectureShort_6pp.pdf
 
 # Trees
 ### Entropy and evidence bits:
@@ -85,3 +91,7 @@
 # Python
 ## Python != operation vs “is not”
 - https://stackoverflow.com/questions/2209755/python-operation-vs-is-not
+
+# Probability
+## Expected Value
+- https://www.youtube.com/watch?v=j__Kredt7vY
