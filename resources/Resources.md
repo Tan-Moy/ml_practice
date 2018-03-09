@@ -77,6 +77,9 @@
 ## List Highest Correlation Pairs from a Large Correlation Matrix in Pandas?
  - https://stackoverflow.com/questions/17778394/list-highest-correlation-pairs-from-a-large-correlation-matrix-in-pandas
 
+## Apply
+- https://www.youtube.com/watch?v=ZFpHAZ_teP8
+
 # Regex
 ## Intro
 - https://stackoverflow.com/questions/4736/learning-regular-expressions
@@ -100,3 +103,10 @@
 ## TF-IDF
 - https://www.youtube.com/watch?v=4vT4fzjkGCQ
 - http://scikit-learn.org/stable/modules/feature_extraction.html#tfidf-term-weighting
+
+# Best Practices for ML Engineering
+- https://developers.google.com/machine-learning/rules-of-ml/
+
+# Deep Learning
+## Saturation due to sigmoid
+- https://datascience.stackexchange.com/questions/16911/how-does-sigmoid-saturate-with-large-weights?newreg=fd1bc621029f4638b2bf66fd52e2fd5c
