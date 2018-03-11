@@ -71,6 +71,11 @@
 ## Replace NaN values of pandas.DataFrame with values from list
 - https://stackoverflow.com/questions/42167429/replace-nan-values-of-pandas-dataframe-with-values-from-list/42167978
 
+## iloc, loc, & ix to select rows and columns
+- https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+![iloc,loc](Pandas-selections-and-indexing.png "iloc,loc usage")
+
+
 ## group_by
 - https://www.youtube.com/watch?v=qy0fDqoMJx8
 
@@ -94,6 +99,9 @@
 # Python
 ## Python != operation vs “is not”
 - https://stackoverflow.com/questions/2209755/python-operation-vs-is-not
+
+## Pickling
+- https://www.pythoncentral.io/how-to-pickle-unpickle-tutorial/
 
 # Probability
 ## Expected Value
