@@ -60,6 +60,10 @@
 ## Convert numpy array to 0 or 1
 - https://stackoverflow.com/questions/45648668/convert-numpy-array-to-0-or-1
 
+## What do image arrays mean:
+- https://stackoverflow.com/questions/24203949/what-do-pixel-values-in-an-image-array-mean#
+
+
 ## 3d array
 - https://stackoverflow.com/questions/37142135/sum-numpy-ndarray-with-3d-array-along-a-given-axis-1
 - ![numpy 3d](elsp_0105.png "numpy 3d array")

@@ -1,0 +1,10 @@
+.axis path,
+.axis line {
+stroke: teal;
+shape-rendering: crispEdges;
+}
+.axis text {
+font-family: Optima, Futura, sans-serif;
+font-size: 10px;
+fill: teal;
+}
